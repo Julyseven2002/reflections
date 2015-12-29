@@ -1,7 +1,7 @@
 {
   "paragraphs": [
     {
-      "text": "%md\n## Welcome to Zeppelin Demo.\n##### This is a live tutorial, you can run the code yourself. (Shift-Enter to Run)",
+      "text": "%md\n## Welcome to Zeppelin.\n##### This is a live tutorial, you can run the code yourself. (Shift-Enter to Run)",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -66,7 +66,7 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql \nselect age, count(1) value\nfrom bank \nwhere age \u003c 100 \ngroup by age \norder by age",
+      "text": "%sql \nselect age, count(1) value\nfrom bank \nwhere age \u003c 30 \ngroup by age \norder by age",
       "config": {
         "colWidth": 4.0,
         "graph": {

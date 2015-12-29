@@ -66,7 +66,7 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql \nselect age, count(1) value\nfrom bank \nwhere age \u003c 30 \ngroup by age \norder by age",
+      "text": "%sql \nselect age, count(1) value\nfrom bank \nwhere age \u003c 100 \ngroup by age \norder by age",
       "config": {
         "colWidth": 4.0,
         "graph": {
